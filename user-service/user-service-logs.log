@@ -1,0 +1,1471 @@
+2024-09-24T07:26:11.131+05:00  INFO 20191 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 20191 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T07:26:11.140+05:00  INFO 20191 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T07:26:11.693+05:00  INFO 20191 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T07:26:11.722+05:00  INFO 20191 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-09-24T07:26:12.095+05:00  INFO 20191 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T07:26:12.104+05:00  INFO 20191 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T07:26:12.104+05:00  INFO 20191 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T07:26:12.133+05:00  INFO 20191 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T07:26:12.133+05:00  INFO 20191 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+2024-09-24T07:26:12.242+05:00  INFO 20191 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T07:26:12.273+05:00  INFO 20191 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T07:26:12.289+05:00  INFO 20191 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T07:26:12.460+05:00  INFO 20191 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T07:26:12.475+05:00  INFO 20191 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T07:26:12.554+05:00  INFO 20191 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7fb82f73
+2024-09-24T07:26:12.555+05:00  INFO 20191 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T07:26:13.055+05:00  INFO 20191 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T07:26:13.084+05:00  INFO 20191 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:26:13.385+05:00  WARN 20191 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T07:26:13.933+05:00  INFO 20191 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T07:26:13.942+05:00  INFO 20191 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 3.207 seconds (process running for 3.831)
+2024-09-24T07:26:13.948+05:00  INFO 20191 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:26:13.949+05:00  INFO 20191 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T07:26:13.951+05:00  INFO 20191 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T07:27:34.511+05:00  INFO 20281 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 20281 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T07:27:34.514+05:00  INFO 20281 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T07:27:35.145+05:00  INFO 20281 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T07:27:35.173+05:00  INFO 20281 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-09-24T07:27:35.556+05:00  INFO 20281 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T07:27:35.565+05:00  INFO 20281 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T07:27:35.565+05:00  INFO 20281 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T07:27:35.594+05:00  INFO 20281 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T07:27:35.594+05:00  INFO 20281 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1028 ms
+2024-09-24T07:27:35.703+05:00  INFO 20281 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T07:27:35.734+05:00  INFO 20281 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T07:27:35.751+05:00  INFO 20281 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T07:27:35.927+05:00  INFO 20281 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T07:27:35.943+05:00  INFO 20281 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T07:27:36.029+05:00  INFO 20281 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e3c36d
+2024-09-24T07:27:36.029+05:00  INFO 20281 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T07:27:36.525+05:00  INFO 20281 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T07:27:36.562+05:00  INFO 20281 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:27:36.866+05:00  WARN 20281 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T07:27:37.504+05:00  INFO 20281 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T07:27:37.512+05:00  INFO 20281 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 3.55 seconds (process running for 4.171)
+2024-09-24T07:44:26.371+05:00  INFO 20281 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:44:26.379+05:00  INFO 20281 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T07:44:26.382+05:00  INFO 20281 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T07:44:31.483+05:00  INFO 20917 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 20917 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T07:44:31.484+05:00  INFO 20917 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T07:44:31.998+05:00  INFO 20917 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T07:44:32.032+05:00  INFO 20917 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-09-24T07:44:32.489+05:00  INFO 20917 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T07:44:32.499+05:00  INFO 20917 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T07:44:32.499+05:00  INFO 20917 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T07:44:32.532+05:00  INFO 20917 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T07:44:32.532+05:00  INFO 20917 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
+2024-09-24T07:44:32.664+05:00  INFO 20917 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T07:44:32.709+05:00  INFO 20917 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T07:44:32.733+05:00  INFO 20917 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T07:44:32.943+05:00  INFO 20917 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T07:44:32.960+05:00  INFO 20917 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T07:44:33.092+05:00  INFO 20917 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5627b8eb
+2024-09-24T07:44:33.093+05:00  INFO 20917 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T07:44:33.773+05:00  INFO 20917 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T07:44:33.809+05:00  INFO 20917 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:44:34.131+05:00  WARN 20917 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T07:44:34.700+05:00  INFO 20917 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T07:44:34.710+05:00  INFO 20917 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 3.511 seconds (process running for 4.015)
+2024-09-24T07:45:54.390+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24T07:45:54.391+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24T07:45:54.395+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-09-24T07:45:54.700+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = user-service-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class java.lang.String
+
+2024-09-24T07:45:54.722+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-24T07:45:54.726+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Closing the Kafka producer with timeoutMillis = 0 ms.
+2024-09-24T07:45:54.727+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-24T07:45:54.727+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-24T07:45:54.727+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-24T07:45:54.727+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-24T07:45:54.729+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for user-service-producer-1 unregistered
+2024-09-24T07:45:54.738+05:00 ERROR 20917 --- [user-service] [http-nio-8086-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.apache.kafka.common.KafkaException: Failed to construct kafka producer] with root cause
+
+org.apache.kafka.common.KafkaException: class java.lang.String is not an instance of org.apache.kafka.common.serialization.Serializer
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:402) ~[kafka-clients-3.7.1.jar:na]
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:436) ~[kafka-clients-3.7.1.jar:na]
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:421) ~[kafka-clients-3.7.1.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:395) ~[kafka-clients-3.7.1.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:294) ~[kafka-clients-3.7.1.jar:na]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.createRawProducer(DefaultKafkaProducerFactory.java:944) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.createKafkaProducer(DefaultKafkaProducerFactory.java:826) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.doCreateProducer(DefaultKafkaProducerFactory.java:793) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.createProducer(DefaultKafkaProducerFactory.java:768) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.createProducer(DefaultKafkaProducerFactory.java:762) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.KafkaTemplate.getTheProducer(KafkaTemplate.java:964) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:816) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.KafkaTemplate.observeSend(KafkaTemplate.java:793) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:570) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at com.daurenassanbaev.userservice.service.UserService.create(UserService.java:34) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.12.jar:6.1.12]
+	at com.daurenassanbaev.userservice.service.UserService$$SpringCGLIB$$0.create(<generated>) ~[classes/:na]
+	at com.daurenassanbaev.userservice.controller.UserController.create(UserController.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:145) ~[spring-security-oauth2-resource-server-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-09-24T07:46:17.795+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-4] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = user-service-producer-2
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class java.lang.String
+
+2024-09-24T07:46:17.797+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-4] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-24T07:46:17.798+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-4] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-2] Closing the Kafka producer with timeoutMillis = 0 ms.
+2024-09-24T07:46:17.799+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-4] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-24T07:46:17.799+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-4] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-24T07:46:17.799+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-4] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-24T07:46:17.799+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-4] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-24T07:46:17.800+05:00  INFO 20917 --- [user-service] [http-nio-8086-exec-4] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for user-service-producer-2 unregistered
+2024-09-24T07:46:17.809+05:00 ERROR 20917 --- [user-service] [http-nio-8086-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.apache.kafka.common.KafkaException: Failed to construct kafka producer] with root cause
+
+org.apache.kafka.common.KafkaException: class java.lang.String is not an instance of org.apache.kafka.common.serialization.Serializer
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:402) ~[kafka-clients-3.7.1.jar:na]
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:436) ~[kafka-clients-3.7.1.jar:na]
+	at org.apache.kafka.common.config.AbstractConfig.getConfiguredInstance(AbstractConfig.java:421) ~[kafka-clients-3.7.1.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:395) ~[kafka-clients-3.7.1.jar:na]
+	at org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:294) ~[kafka-clients-3.7.1.jar:na]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.createRawProducer(DefaultKafkaProducerFactory.java:944) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.createKafkaProducer(DefaultKafkaProducerFactory.java:826) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.doCreateProducer(DefaultKafkaProducerFactory.java:793) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.createProducer(DefaultKafkaProducerFactory.java:768) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory.createProducer(DefaultKafkaProducerFactory.java:762) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.KafkaTemplate.getTheProducer(KafkaTemplate.java:964) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:816) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.KafkaTemplate.observeSend(KafkaTemplate.java:793) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:570) ~[spring-kafka-3.2.3.jar:3.2.3]
+	at com.daurenassanbaev.userservice.service.UserService.create(UserService.java:34) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768) ~[spring-aop-6.1.12.jar:6.1.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720) ~[spring-aop-6.1.12.jar:6.1.12]
+	at com.daurenassanbaev.userservice.service.UserService$$SpringCGLIB$$0.create(<generated>) ~[classes/:na]
+	at com.daurenassanbaev.userservice.controller.UserController.create(UserController.java:32) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter.doFilterInternal(BearerTokenAuthenticationFilter.java:145) ~[spring-security-oauth2-resource-server-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.3.jar:6.3.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-09-24T07:49:09.656+05:00  INFO 20917 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:49:09.661+05:00  INFO 20917 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T07:49:09.663+05:00  INFO 20917 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T07:49:12.871+05:00  INFO 21085 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 21085 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T07:49:12.874+05:00  INFO 21085 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T07:49:13.646+05:00  INFO 21085 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T07:49:13.675+05:00  INFO 21085 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-09-24T07:49:14.050+05:00  INFO 21085 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T07:49:14.059+05:00  INFO 21085 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T07:49:14.059+05:00  INFO 21085 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T07:49:14.089+05:00  INFO 21085 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T07:49:14.089+05:00  INFO 21085 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1164 ms
+2024-09-24T07:49:14.202+05:00  INFO 21085 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T07:49:14.238+05:00  INFO 21085 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T07:49:14.260+05:00  INFO 21085 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T07:49:14.431+05:00  INFO 21085 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T07:49:14.447+05:00  INFO 21085 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T07:49:14.547+05:00  INFO 21085 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6be8ce1b
+2024-09-24T07:49:14.548+05:00  INFO 21085 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T07:49:15.070+05:00  INFO 21085 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T07:49:15.095+05:00  INFO 21085 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:49:15.405+05:00  WARN 21085 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T07:49:15.946+05:00  INFO 21085 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T07:49:15.954+05:00  INFO 21085 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 3.536 seconds (process running for 4.174)
+2024-09-24T07:49:27.689+05:00  INFO 21085 --- [user-service] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24T07:49:27.690+05:00  INFO 21085 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24T07:49:27.694+05:00  INFO 21085 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-09-24T07:49:28.039+05:00  INFO 21085 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = user-service-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-09-24T07:49:28.062+05:00  INFO 21085 --- [user-service] [http-nio-8086-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-24T07:49:28.071+05:00  INFO 21085 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Instantiated an idempotent producer.
+2024-09-24T07:49:28.095+05:00  INFO 21085 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-24T07:49:28.098+05:00  INFO 21085 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-24T07:49:28.098+05:00  INFO 21085 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1727146168094
+2024-09-24T07:49:28.328+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=user-service-producer-1] Cluster ID: ydHMG0xnSPmdkKt2fjrRMA
+2024-09-24T07:49:28.467+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=user-service-producer-1] ProducerId set to 4000 with epoch 0
+2024-09-24T07:53:26.782+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:26.800+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node -1 disconnected.
+2024-09-24T07:53:26.917+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:26.918+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Cancelled in-flight API_VERSIONS request with correlation id 7 due to node 1 being disconnected (elapsed time since creation: 3ms, elapsed time since send: 3ms, request timeout: 30000ms)
+2024-09-24T07:53:27.145+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:27.146+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Cancelled in-flight API_VERSIONS request with correlation id 8 due to node 1 being disconnected (elapsed time since creation: 0ms, elapsed time since send: 0ms, request timeout: 30000ms)
+2024-09-24T07:53:27.620+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:27.621+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Cancelled in-flight API_VERSIONS request with correlation id 9 due to node 1 being disconnected (elapsed time since creation: 1ms, elapsed time since send: 1ms, request timeout: 30000ms)
+2024-09-24T07:53:28.515+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:28.516+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:29.495+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:29.496+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:30.480+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:30.481+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:31.525+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:31.526+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:32.528+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:32.529+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:33.531+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:33.532+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:34.534+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:34.535+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:35.538+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:35.538+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:36.540+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:36.540+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:37.546+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:37.549+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:38.549+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:38.550+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:39.550+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:39.551+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:40.552+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:40.552+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:41.555+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:41.556+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:42.558+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:42.558+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:43.561+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:43.562+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:44.568+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:44.569+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:45.570+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:45.571+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:46.572+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:46.572+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:47.577+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:47.578+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:48.579+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:48.579+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:49.582+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:49.583+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:50.584+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:50.585+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:51.587+05:00  INFO 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Node 1 disconnected.
+2024-09-24T07:53:51.588+05:00  WARN 21085 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=user-service-producer-1] Connection to node 1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2024-09-24T07:53:51.788+05:00  INFO 21085 --- [user-service] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-24T07:53:51.793+05:00  INFO 21085 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-24T07:53:51.793+05:00  INFO 21085 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-24T07:53:51.794+05:00  INFO 21085 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-24T07:53:51.794+05:00  INFO 21085 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-24T07:53:51.794+05:00  INFO 21085 --- [user-service] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for user-service-producer-1 unregistered
+2024-09-24T07:53:51.797+05:00  INFO 21085 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:53:51.800+05:00  INFO 21085 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T07:53:51.803+05:00  INFO 21085 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T07:58:00.996+05:00  INFO 21367 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 21367 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T07:58:00.998+05:00  INFO 21367 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T07:58:01.587+05:00  INFO 21367 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T07:58:01.617+05:00  INFO 21367 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-09-24T07:58:01.989+05:00  INFO 21367 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T07:58:01.998+05:00  INFO 21367 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T07:58:01.999+05:00  INFO 21367 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T07:58:02.028+05:00  INFO 21367 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T07:58:02.028+05:00  INFO 21367 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1000 ms
+2024-09-24T07:58:02.141+05:00  INFO 21367 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T07:58:02.177+05:00  INFO 21367 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T07:58:02.197+05:00  INFO 21367 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T07:58:02.368+05:00  INFO 21367 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T07:58:02.384+05:00  INFO 21367 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T07:58:02.491+05:00  INFO 21367 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@397a10df
+2024-09-24T07:58:02.491+05:00  INFO 21367 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T07:58:03.007+05:00  INFO 21367 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T07:58:03.034+05:00  INFO 21367 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:58:03.348+05:00  WARN 21367 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T07:58:03.893+05:00  INFO 21367 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T07:58:03.902+05:00  INFO 21367 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 3.328 seconds (process running for 4.412)
+2024-09-24T07:58:21.861+05:00  INFO 21367 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T07:58:21.865+05:00  INFO 21367 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T07:58:21.868+05:00  INFO 21367 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T08:11:37.851+05:00  INFO 21965 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 21965 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T08:11:37.853+05:00  INFO 21965 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T08:11:38.385+05:00  INFO 21965 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T08:11:38.412+05:00  INFO 21965 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-09-24T08:11:38.774+05:00  INFO 21965 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T08:11:38.783+05:00  INFO 21965 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:11:38.783+05:00  INFO 21965 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T08:11:38.811+05:00  INFO 21965 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:11:38.811+05:00  INFO 21965 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 928 ms
+2024-09-24T08:11:38.919+05:00  INFO 21965 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T08:11:38.951+05:00  INFO 21965 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T08:11:38.967+05:00  INFO 21965 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T08:11:39.132+05:00  INFO 21965 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T08:11:39.151+05:00  INFO 21965 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T08:11:39.233+05:00  INFO 21965 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6be8ce1b
+2024-09-24T08:11:39.234+05:00  INFO 21965 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T08:11:39.772+05:00  INFO 21965 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T08:11:39.812+05:00  INFO 21965 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:11:40.117+05:00  WARN 21965 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T08:11:40.682+05:00  INFO 21965 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T08:11:40.691+05:00  INFO 21965 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 3.245 seconds (process running for 3.838)
+2024-09-24T08:12:45.889+05:00  INFO 21965 --- [user-service] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24T08:12:45.891+05:00  INFO 21965 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24T08:12:45.894+05:00  INFO 21965 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-09-24T08:12:46.198+05:00  INFO 21965 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = user-service-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-09-24T08:12:46.219+05:00  INFO 21965 --- [user-service] [http-nio-8086-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-24T08:12:46.228+05:00  INFO 21965 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Instantiated an idempotent producer.
+2024-09-24T08:12:46.250+05:00  INFO 21965 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-24T08:12:46.250+05:00  INFO 21965 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-24T08:12:46.250+05:00  INFO 21965 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1727147566249
+2024-09-24T08:12:46.433+05:00  INFO 21965 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=user-service-producer-1] Cluster ID: a5Hj4BhQQ-ywGQixswYKzQ
+2024-09-24T08:12:46.553+05:00  INFO 21965 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=user-service-producer-1] ProducerId set to 0 with epoch 0
+2024-09-24T08:14:24.731+05:00  INFO 21965 --- [user-service] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-24T08:14:24.742+05:00  INFO 21965 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-24T08:14:24.743+05:00  INFO 21965 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-24T08:14:24.743+05:00  INFO 21965 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-24T08:14:24.743+05:00  INFO 21965 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-24T08:14:24.743+05:00  INFO 21965 --- [user-service] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for user-service-producer-1 unregistered
+2024-09-24T08:14:24.747+05:00  INFO 21965 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:14:24.751+05:00  INFO 21965 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T08:14:24.754+05:00  INFO 21965 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T08:15:12.823+05:00  INFO 22089 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 22089 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T08:15:12.826+05:00  INFO 22089 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T08:15:13.461+05:00  INFO 22089 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T08:15:13.492+05:00  INFO 22089 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-09-24T08:15:13.881+05:00  INFO 22089 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T08:15:13.890+05:00  INFO 22089 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:15:13.890+05:00  INFO 22089 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T08:15:13.927+05:00  INFO 22089 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:15:13.927+05:00  INFO 22089 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
+2024-09-24T08:15:14.041+05:00  INFO 22089 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T08:15:14.074+05:00  INFO 22089 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T08:15:14.092+05:00  INFO 22089 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T08:15:14.274+05:00  INFO 22089 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T08:15:14.290+05:00  INFO 22089 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T08:15:14.373+05:00  INFO 22089 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43294e9b
+2024-09-24T08:15:14.374+05:00  INFO 22089 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T08:15:15.137+05:00  INFO 22089 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T08:15:15.172+05:00  INFO 22089 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:15:15.485+05:00  WARN 22089 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T08:15:16.042+05:00  INFO 22089 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T08:15:16.051+05:00  INFO 22089 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 3.647 seconds (process running for 4.665)
+2024-09-24T08:15:16.058+05:00  INFO 22089 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:15:16.059+05:00  INFO 22089 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T08:15:16.061+05:00  INFO 22089 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T08:15:57.609+05:00  INFO 22163 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 22163 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T08:15:57.612+05:00  INFO 22163 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T08:15:58.207+05:00  INFO 22163 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T08:15:58.238+05:00  INFO 22163 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-09-24T08:15:58.637+05:00  INFO 22163 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T08:15:58.667+05:00  INFO 22163 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:15:58.667+05:00  INFO 22163 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T08:15:58.705+05:00  INFO 22163 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:15:58.705+05:00  INFO 22163 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1056 ms
+2024-09-24T08:15:58.819+05:00  INFO 22163 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T08:15:58.857+05:00  INFO 22163 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T08:15:58.879+05:00  INFO 22163 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T08:15:59.065+05:00  INFO 22163 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T08:15:59.083+05:00  INFO 22163 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T08:15:59.169+05:00  INFO 22163 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c1a74d
+2024-09-24T08:15:59.170+05:00  INFO 22163 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T08:15:59.710+05:00  INFO 22163 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T08:15:59.737+05:00  INFO 22163 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:16:00.503+05:00  WARN 22163 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T08:16:01.387+05:00  INFO 22163 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T08:16:01.399+05:00  INFO 22163 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 4.293 seconds (process running for 5.225)
+2024-09-24T08:16:51.280+05:00  INFO 22163 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:16:51.288+05:00  INFO 22163 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T08:16:51.290+05:00  INFO 22163 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T08:28:50.862+05:00  INFO 22713 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 22713 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T08:28:50.864+05:00  INFO 22713 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T08:28:51.402+05:00  INFO 22713 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T08:28:51.437+05:00  INFO 22713 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-09-24T08:28:51.827+05:00  INFO 22713 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T08:28:51.836+05:00  INFO 22713 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:28:51.837+05:00  INFO 22713 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T08:28:51.873+05:00  INFO 22713 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:28:51.873+05:00  INFO 22713 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 985 ms
+2024-09-24T08:28:51.985+05:00  INFO 22713 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T08:28:52.024+05:00  INFO 22713 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T08:28:52.046+05:00  INFO 22713 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T08:28:52.228+05:00  INFO 22713 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T08:28:52.244+05:00  INFO 22713 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T08:28:52.346+05:00  INFO 22713 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@30133a11
+2024-09-24T08:28:52.347+05:00  INFO 22713 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T08:28:52.891+05:00  INFO 22713 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T08:28:52.923+05:00  INFO 22713 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:28:53.576+05:00  WARN 22713 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T08:28:54.462+05:00  INFO 22713 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T08:28:54.474+05:00  INFO 22713 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 3.981 seconds (process running for 4.734)
+2024-09-24T08:32:21.084+05:00  INFO 22713 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:32:21.089+05:00  INFO 22713 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T08:32:21.091+05:00  INFO 22713 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T08:38:56.661+05:00  INFO 23150 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 23150 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T08:38:56.662+05:00  INFO 23150 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T08:38:57.187+05:00  INFO 23150 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T08:38:57.222+05:00  INFO 23150 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-09-24T08:38:57.675+05:00  INFO 23150 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T08:38:57.690+05:00  INFO 23150 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:38:57.690+05:00  INFO 23150 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T08:38:57.720+05:00  INFO 23150 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:38:57.721+05:00  INFO 23150 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1036 ms
+2024-09-24T08:38:57.876+05:00  INFO 23150 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T08:38:57.916+05:00  INFO 23150 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T08:38:57.937+05:00  INFO 23150 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T08:38:58.128+05:00  INFO 23150 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T08:38:58.147+05:00  INFO 23150 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T08:38:58.258+05:00  INFO 23150 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45e69324
+2024-09-24T08:38:58.259+05:00  INFO 23150 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T08:38:58.883+05:00  INFO 23150 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T08:38:58.915+05:00  INFO 23150 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:38:59.722+05:00  WARN 23150 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T08:39:00.654+05:00  INFO 23150 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T08:39:00.672+05:00  INFO 23150 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 4.386 seconds (process running for 5.042)
+2024-09-24T08:39:17.490+05:00  INFO 23150 --- [user-service] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24T08:39:17.491+05:00  INFO 23150 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24T08:39:17.495+05:00  INFO 23150 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-09-24T08:39:25.681+05:00  INFO 23150 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = user-service-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-09-24T08:39:25.743+05:00  INFO 23150 --- [user-service] [http-nio-8086-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-24T08:39:25.766+05:00  INFO 23150 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Instantiated an idempotent producer.
+2024-09-24T08:39:25.823+05:00  INFO 23150 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-24T08:39:25.824+05:00  INFO 23150 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-24T08:39:25.824+05:00  INFO 23150 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1727149165821
+2024-09-24T08:39:26.407+05:00  INFO 23150 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=user-service-producer-1] Cluster ID: a5Hj4BhQQ-ywGQixswYKzQ
+2024-09-24T08:39:26.527+05:00  INFO 23150 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=user-service-producer-1] ProducerId set to 1000 with epoch 0
+2024-09-24T08:42:32.791+05:00  INFO 23150 --- [user-service] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-24T08:42:32.799+05:00  INFO 23150 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-24T08:42:32.804+05:00  INFO 23150 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-24T08:42:32.804+05:00  INFO 23150 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-24T08:42:32.804+05:00  INFO 23150 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-24T08:42:32.805+05:00  INFO 23150 --- [user-service] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for user-service-producer-1 unregistered
+2024-09-24T08:42:32.808+05:00  INFO 23150 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:42:32.814+05:00  INFO 23150 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T08:42:32.817+05:00  INFO 23150 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T08:43:03.046+05:00  INFO 23314 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 23314 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T08:43:03.048+05:00  INFO 23314 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T08:43:03.585+05:00  INFO 23314 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T08:43:03.621+05:00  INFO 23314 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-09-24T08:43:04.133+05:00  INFO 23314 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T08:43:04.144+05:00  INFO 23314 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:43:04.144+05:00  INFO 23314 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T08:43:04.184+05:00  INFO 23314 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:43:04.184+05:00  INFO 23314 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1112 ms
+2024-09-24T08:43:04.330+05:00  INFO 23314 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T08:43:04.372+05:00  INFO 23314 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T08:43:04.406+05:00  INFO 23314 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T08:43:04.629+05:00  INFO 23314 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T08:43:04.651+05:00  INFO 23314 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T08:43:04.757+05:00  INFO 23314 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18692e80
+2024-09-24T08:43:04.759+05:00  INFO 23314 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T08:43:05.850+05:00  INFO 23314 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T08:43:05.902+05:00  INFO 23314 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:43:07.546+05:00  WARN 23314 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T08:43:08.442+05:00  INFO 23314 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T08:43:08.454+05:00  INFO 23314 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 5.773 seconds (process running for 6.502)
+2024-09-24T08:43:43.171+05:00  INFO 23314 --- [user-service] [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24T08:43:43.172+05:00  INFO 23314 --- [user-service] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24T08:43:43.177+05:00  INFO 23314 --- [user-service] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-09-24T08:43:46.091+05:00  INFO 23314 --- [user-service] [http-nio-8086-exec-2] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = user-service-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-09-24T08:43:46.140+05:00  INFO 23314 --- [user-service] [http-nio-8086-exec-2] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-24T08:43:46.159+05:00  INFO 23314 --- [user-service] [http-nio-8086-exec-2] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Instantiated an idempotent producer.
+2024-09-24T08:43:46.204+05:00  INFO 23314 --- [user-service] [http-nio-8086-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-24T08:43:46.204+05:00  INFO 23314 --- [user-service] [http-nio-8086-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-24T08:43:46.204+05:00  INFO 23314 --- [user-service] [http-nio-8086-exec-2] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1727149426202
+2024-09-24T08:43:46.619+05:00  INFO 23314 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=user-service-producer-1] Cluster ID: a5Hj4BhQQ-ywGQixswYKzQ
+2024-09-24T08:43:46.736+05:00  INFO 23314 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=user-service-producer-1] ProducerId set to 2000 with epoch 0
+2024-09-24T08:48:53.717+05:00  INFO 23314 --- [user-service] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-24T08:48:53.730+05:00  INFO 23314 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-24T08:48:53.730+05:00  INFO 23314 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-24T08:48:53.730+05:00  INFO 23314 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-24T08:48:53.730+05:00  INFO 23314 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-24T08:48:53.731+05:00  INFO 23314 --- [user-service] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for user-service-producer-1 unregistered
+2024-09-24T08:48:53.735+05:00  INFO 23314 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:48:53.741+05:00  INFO 23314 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T08:48:53.743+05:00  INFO 23314 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T08:49:05.907+05:00  INFO 23475 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 23475 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T08:49:05.909+05:00  INFO 23475 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T08:49:06.460+05:00  INFO 23475 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T08:49:06.497+05:00  INFO 23475 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-09-24T08:49:06.979+05:00  INFO 23475 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T08:49:06.995+05:00  INFO 23475 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:49:06.995+05:00  INFO 23475 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T08:49:07.057+05:00  INFO 23475 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:49:07.058+05:00  INFO 23475 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1120 ms
+2024-09-24T08:49:07.293+05:00  INFO 23475 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T08:49:07.368+05:00  INFO 23475 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T08:49:07.399+05:00  INFO 23475 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T08:49:07.711+05:00  INFO 23475 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T08:49:07.738+05:00  INFO 23475 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T08:49:07.875+05:00  INFO 23475 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f2becb2
+2024-09-24T08:49:07.877+05:00  INFO 23475 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T08:49:08.803+05:00  INFO 23475 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T08:49:08.842+05:00  INFO 23475 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:49:10.391+05:00  WARN 23475 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T08:49:11.576+05:00  INFO 23475 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T08:49:11.591+05:00  INFO 23475 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 6.158 seconds (process running for 7.86)
+2024-09-24T08:49:59.013+05:00  INFO 23475 --- [user-service] [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24T08:49:59.014+05:00  INFO 23475 --- [user-service] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24T08:49:59.018+05:00  INFO 23475 --- [user-service] [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-09-24T08:50:11.514+05:00  INFO 23475 --- [user-service] [http-nio-8086-exec-3] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = user-service-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-09-24T08:50:11.557+05:00  INFO 23475 --- [user-service] [http-nio-8086-exec-3] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-24T08:50:11.574+05:00  INFO 23475 --- [user-service] [http-nio-8086-exec-3] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Instantiated an idempotent producer.
+2024-09-24T08:50:11.619+05:00  INFO 23475 --- [user-service] [http-nio-8086-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-24T08:50:11.619+05:00  INFO 23475 --- [user-service] [http-nio-8086-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-24T08:50:11.620+05:00  INFO 23475 --- [user-service] [http-nio-8086-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1727149811617
+2024-09-24T08:50:12.025+05:00  INFO 23475 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=user-service-producer-1] Cluster ID: a5Hj4BhQQ-ywGQixswYKzQ
+2024-09-24T08:50:12.027+05:00  INFO 23475 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=user-service-producer-1] ProducerId set to 2001 with epoch 0
+2024-09-24T08:53:45.782+05:00  INFO 23475 --- [user-service] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-24T08:53:45.791+05:00  INFO 23475 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-24T08:53:45.791+05:00  INFO 23475 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-24T08:53:45.791+05:00  INFO 23475 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-24T08:53:45.791+05:00  INFO 23475 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-24T08:53:45.792+05:00  INFO 23475 --- [user-service] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for user-service-producer-1 unregistered
+2024-09-24T08:53:45.795+05:00  INFO 23475 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:53:45.807+05:00  INFO 23475 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T08:53:45.817+05:00  INFO 23475 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T08:54:14.034+05:00  INFO 23640 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Starting UserServiceApplication using Java 21.0.3 with PID 23640 (/Users/daurenassanbaev/IdeaProjects/e-commerce/user-service/target/classes started by daurenassanbaev in /Users/daurenassanbaev/IdeaProjects/e-commerce)
+2024-09-24T08:54:14.038+05:00  INFO 23640 --- [user-service] [main] c.d.userservice.UserServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T08:54:14.727+05:00  INFO 23640 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T08:54:14.757+05:00  INFO 23640 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-09-24T08:54:15.185+05:00  INFO 23640 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-09-24T08:54:15.198+05:00  INFO 23640 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T08:54:15.198+05:00  INFO 23640 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-24T08:54:15.242+05:00  INFO 23640 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T08:54:15.243+05:00  INFO 23640 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
+2024-09-24T08:54:15.355+05:00  INFO 23640 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T08:54:15.390+05:00  INFO 23640 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-24T08:54:15.410+05:00  INFO 23640 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T08:54:15.581+05:00  INFO 23640 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T08:54:15.599+05:00  INFO 23640 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T08:54:15.694+05:00  INFO 23640 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35f01759
+2024-09-24T08:54:15.695+05:00  INFO 23640 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T08:54:16.248+05:00  INFO 23640 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T08:54:16.279+05:00  INFO 23640 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:54:17.343+05:00  WARN 23640 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T08:54:18.622+05:00  INFO 23640 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2024-09-24T08:54:18.635+05:00  INFO 23640 --- [user-service] [main] c.d.userservice.UserServiceApplication   : Started UserServiceApplication in 5.83 seconds (process running for 7.258)
+2024-09-24T08:54:34.240+05:00  INFO 23640 --- [user-service] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24T08:54:34.240+05:00  INFO 23640 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24T08:54:34.244+05:00  INFO 23640 --- [user-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-09-24T08:54:34.919+05:00  INFO 23640 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = user-service-producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-09-24T08:54:34.966+05:00  INFO 23640 --- [user-service] [http-nio-8086-exec-1] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2024-09-24T08:54:34.983+05:00  INFO 23640 --- [user-service] [http-nio-8086-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Instantiated an idempotent producer.
+2024-09-24T08:54:35.026+05:00  INFO 23640 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.7.1
+2024-09-24T08:54:35.026+05:00  INFO 23640 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: e2494e6ffb89f828
+2024-09-24T08:54:35.026+05:00  INFO 23640 --- [user-service] [http-nio-8086-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1727150075025
+2024-09-24T08:54:35.439+05:00  INFO 23640 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=user-service-producer-1] Cluster ID: a5Hj4BhQQ-ywGQixswYKzQ
+2024-09-24T08:54:35.440+05:00  INFO 23640 --- [user-service] [kafka-producer-network-thread | user-service-producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=user-service-producer-1] ProducerId set to 2002 with epoch 0
+2024-09-24T08:55:00.278+05:00  INFO 23640 --- [user-service] [SpringApplicationShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=user-service-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-09-24T08:55:00.298+05:00  INFO 23640 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2024-09-24T08:55:00.298+05:00  INFO 23640 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-24T08:55:00.299+05:00  INFO 23640 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2024-09-24T08:55:00.299+05:00  INFO 23640 --- [user-service] [SpringApplicationShutdownHook] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2024-09-24T08:55:00.302+05:00  INFO 23640 --- [user-service] [SpringApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for user-service-producer-1 unregistered
+2024-09-24T08:55:00.309+05:00  INFO 23640 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T08:55:00.314+05:00  INFO 23640 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T08:55:00.317+05:00  INFO 23640 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
